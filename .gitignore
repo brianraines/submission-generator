@@ -1,0 +1,4 @@
+vendor/
+files/batches/*.pdf
+files/signatures/*.png
+files/submissions/*.pdf

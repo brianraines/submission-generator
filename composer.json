@@ -1,0 +1,8 @@
+{
+    "require": {
+        "fakerphp/faker": "^1.16",
+        "stil/gd-text": "^1.1",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.3"
+    }
+}
