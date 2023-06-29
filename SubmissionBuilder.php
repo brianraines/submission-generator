@@ -96,7 +96,7 @@ class SubmissionBuilder
         }
 
         // Output the new PDF
-        $batch = 'files/batches/' . $batchNumber . '.pdf';
+        $batch = 'files/batches/batch-' . str_pad($batchNumber, 2, 0, STR_PAD_LEFT) . '.pdf';
         $pdf->Output('F', $batch);
     }
 

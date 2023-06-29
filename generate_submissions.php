@@ -22,8 +22,8 @@ foreach($opt as $key=>$value) {
     if(isset($options[$key])) {
 
         if ($key == "batch-size" && $value > 50) {
-            echo "Batch size cannot be greater than 50\n";
-            exit();
+            //echo "Batch size cannot be greater than 50\n";
+            //exit();
         }
 
         $options[$key] = $value;
